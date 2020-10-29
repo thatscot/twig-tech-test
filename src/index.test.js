@@ -1,4 +1,4 @@
-const { groupArrayElements } = require('./index');
+const { groupArrayElements } = require('./index').default;
 
 describe('index', () => {
 
@@ -36,4 +36,5 @@ describe('index', () => {
 
             expect(groupArrayElements(array, divisor)).toEqual(expectedOutput);
         });
-})
+    })
+});

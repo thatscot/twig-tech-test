@@ -6,8 +6,7 @@ const groupArrayElements = (array, N) => {
     while(currentArr.length > 0) {
       output.push(currentArr.splice(0, noOfArrays));
     }
-    console.log('output', output)
     return output;
   }
 
-module.exports = {groupArrayElements};
+export default groupArrayElements;
