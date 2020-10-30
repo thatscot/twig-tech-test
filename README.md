@@ -4,7 +4,7 @@ Twig-tech-test takes an array and divides the contents into a specified amount o
 
 ## Installation
 
-Use NPM 
+Ensure NodeJS is installed
 
 Run following command from project root directory
 ```
