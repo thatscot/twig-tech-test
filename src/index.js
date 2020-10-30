@@ -3,10 +3,10 @@ const groupArrayElements = (array, N) => {
     if (N < 1) {
         throw new Error("Divisor must be greater than zero");
     }
-    else if(array && array.length < 1){
+    else if (array && array.length < 1) {
         throw new Error("Array is empty so cannot be divided");
     }
-     else if (N === 1) {
+    else if (N === 1) {
         return array;
     }
     else {

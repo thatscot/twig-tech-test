@@ -37,19 +37,18 @@ describe('index', () => {
         });
 
         test('should throw an error when divisor is less than 1', () => {
-        
+
             const divisor = 0;
 
             try {
                 groupArrayElements(arr, divisor)
-          
             } catch (e) {
                 expect(e.message).toBe("Divisor must be greater than zero");
             }
         });
 
         test('should throw an error when array is empty', () => {
-            
+
             const divisor = 3;
             try {
                 groupArrayElements([], divisor)
